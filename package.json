@@ -1,0 +1,23 @@
+{
+  "name": "htmlportfolio",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "index.js",
+  
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://eemil97@bitbucket.org/eemil97/htmlportfolio.git"
+  },
+  "author": "Eemil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://bitbucket.org/eemil97/htmlportfolio/issues"
+  },
+  "homepage": "https://bitbucket.org/eemil97/htmlportfolio#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
