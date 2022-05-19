@@ -1,25 +1,17 @@
 {
-  "name": "htmlportfolio",
+   "name": "htmlportfolio",
   "version": "1.0.0",
   "description": "portfolio website",
   "main": "index.js",
-  "homepage": "https://eemil43.github.io/eemil43.github.io",
-  
+ "homepage": "https://eemil43.github.io/html_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://eemil97@bitbucket.org/eemil97/htmlportfolio.git"
   },
   "author": "Eemil",
   "license": "MIT",
-  "bugs": {
-    "url": "https://bitbucket.org/eemil97/htmlportfolio/issues"
-  },
-  "homepage": "https://bitbucket.org/eemil97/htmlportfolio#readme",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^7.0.1"
   }
 }
